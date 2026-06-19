@@ -5,7 +5,7 @@ A personal portfolio website built using **HTML, CSS, and JavaScript (Vanilla JS
 ## 🚀 Demo
 
 ```text
--
+https://daryanep.github.io/vanilla-portfolio/
 ```
 
 ## ✨ Features
@@ -48,7 +48,7 @@ git clone https://github.com/daryanep/vanilla-portfolio.git
 2. Navigate to the project directory
 
 ```bash
-cd portfolio
+cd vanilla-portfolio
 ```
 
 3. Open `index.html` in your browser
