@@ -4,9 +4,7 @@ A personal portfolio website built using **HTML, CSS, and JavaScript (Vanilla JS
 
 ## 🚀 Demo
 
-```text
-https://daryanep.github.io/vanilla-portfolio/
-```
+[https://daryanep.github.io/vanilla-portfolio/](https://daryanep.github.io/vanilla-portfolio/)
 
 ## ✨ Features
 
