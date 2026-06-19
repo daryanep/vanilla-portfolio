@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* NAVBAR */
+header {
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 20px;
+    color: white;
+    font-size: small;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: lightgray;
+}
+/* NAVBAR END */
+
+/* MAIN */
+
+body {
+    background-color: #707072;
+}
+
+main {
+    background-color: white;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #707072;
+    background-image: url("../assets/images/hero.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    padding: 2em;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    margin-bottom: 20px;
+}
+/* HERO END */
+
+/* ABOUT */
+.about {
+    font-size: 22px;
+    padding: 2em;
+    background-color: lightgray;
+}
+
+.about .about-container h2 {
+    display: flex;
+    justify-content: end;
+}
+
+.about .about-container hr {
+    margin: 1em 0;
+}
+
+.about-container {
+    background-color: white;
+    padding: 2em;
+    border-radius: 15px;
+    margin-top: 1em;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.about-card {
+    background-color: white;
+    color: black;
+    padding: 1em;
+    width: 300px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.about-card h4 {
+    margin: 20px 0;
+}
+/* ABOUT END */
+
+/* PROJECT */
+.project {
+    background-color: darkslategray;
+    margin-top: -2em;
+}
+
+.project hr {
+    margin-top: 2em;
+}
+
+.project-container {
+    padding: 2em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-container button.button-project {
+    height: 3em;
+    margin-top: 3em;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.project-container button.button-project:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.project-container button.button-project:active {
+    background-color: gray;
+}
+
+.project-card {
+    margin-top: 2em;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 270px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.project-card button {
+    height: 2em;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.project-card button:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.project-card button:active {
+    background-color: gray;
+}
+
+.project-card h4 {
+    margin-top: 1em;
+}
+
+.project-card p {
+    margin: 1em 0;
+}
+/* PROJECT END */
+
+/* CONTACT */
+.contact {
+    color: black;
+    background-color: white;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card {
+    color: black;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 2em;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.contact-card h4 {
+    margin-bottom: 1em;
+}
+
+.contact-card label {
+    margin-bottom: 5px;
+}
+
+.contact-card input {
+    margin-bottom: 1em;
+    border-radius: 3px;
+    border: none;
+    padding: 6px;
+    background-color: whitesmoke;
+}
+
+.contact-card textarea {
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+    background-color: whitesmoke;
+}
+
+.contact-card button {
+    margin-top: 1em;
+    height: 2em;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.contact-card button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact-card button:active {
+    background-color: gray;
+}
+/* CONTACT END */
+
+/* MAIN END */
+
+/* FOOTER */
+.footer {
+    background-color: #101010;
+    color: white;
+    padding: 2em 6em;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.footer-card-container {
+    display: flex;
+}
+
+.footer-card a img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    border: solid white;
+}
+
+.footer-card a img:hover {
+   border: none;
+}
+
+.grid h3 {
+    margin-bottom: 1em;
+}
+
+.grid .footer-list li {
+    list-style: none;
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.grid .footer-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.grid .footer-list li a:active {
+    text-decoration: underline;
+}
+
+.license {
+    padding: 1em;
+    background-color: #050505;
+    color: white;
+}
+/* FOOTER END */
