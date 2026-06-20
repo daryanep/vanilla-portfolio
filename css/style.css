@@ -13,6 +13,14 @@ a {
     text-decoration: none;
 }
 
+:hover {
+    transition: 0.3s ease;
+}
+
+:active {
+    transition: 0.3s ease;
+}
+
 #about {
     scroll-margin-top: 80px;
 }
@@ -39,6 +47,7 @@ header {
     padding: 20px;
     color: white;
     font-size: small;
+    min-height: 60px;
 }
 
 .logo {
@@ -61,10 +70,17 @@ header {
 .navbar ul li a {
     text-decoration: none;
     color: white;
+    padding: 4px 6px;
+    border-radius: 6px;
 }
 
 .navbar ul li a:hover {
-    color: lightgray;
+    color: white;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.navbar ul li a:active {
+    background-color: rgb(255, 255, 255, 0.5);
 }
 /* NAVBAR END */
 
@@ -385,7 +401,12 @@ main {
 }
 
 .footer-card a img:hover {
-   border: none;
+   border: solid darkslategray;
+   transition: 0.3s ease;
+}
+
+.footer-card a img:active {
+    border: none;
 }
 
 .grid h3 {
