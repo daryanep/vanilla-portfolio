@@ -9,6 +9,10 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+}
+
 #about {
     scroll-margin-top: 80px;
 }
@@ -35,6 +39,12 @@ header {
     padding: 20px;
     color: white;
     font-size: small;
+}
+
+.logo {
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: white;
 }
 
 .navbar ul {
@@ -103,7 +113,8 @@ main {
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 40px 0 0;
+    margin: 0 40px;
 }
 
 .hero-button {
@@ -426,7 +437,11 @@ main {
     }
 
     .hero-content {
-        padding-left: 1em;
+        padding: 0 20px;
+    }
+
+    .hero-button-container {
+        margin-left: 20px;
     }
 
     .hero-button {
